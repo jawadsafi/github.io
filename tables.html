@@ -1,0 +1,188 @@
+<html lang="en">
+	<head>
+		<title>Employee table</title>
+		<meta name="description" content="3135 Activity">
+		<meta charset="UTF-8">
+		<link href="style/default.css" rel="stylesheet">
+	</head>
+	<body>
+
+		<header>
+			
+			
+		</header>
+		<script src="scripts/siteLinks.js"></script>
+		<main>
+			<h1>Assignment 2- HTML Tables</h1>
+			<h3>My Tabular Data</h3>
+		
+			
+				
+					Name
+					E-mail
+					Years of Service<br>
+						Ahmed Hamidi
+						ahamidi@safi.com
+						20<br>
+					
+					
+						Jawad Safi
+						Jsafi@safi.com
+						33<br>
+					
+					
+						Ent Mohammed
+						theflyingent@safi.com
+						5<br>
+					
+					
+						Steve Jobless
+						jobless@safi.com
+						3<br>
+					
+					
+						Neil Armstrong
+						1stmaninSpace@safi.com
+						10<br>
+					
+					
+						Nabeel Khan
+						nasKhan@safi.com
+						25<br>
+					
+					
+						John Walker
+						johnwalter@safi.com
+						4<br>
+					
+			
+			
+	
+			<h3>Employee Data in Simple Table</h3>
+	
+	
+	
+			<table>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>E-mail</th>
+						<th class="right">Years of Service</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Ahmed Hamidi</td>
+						<td>ahamidi@safi.com</td>
+						<td class="right">20</td>
+					</tr>
+					<tr>
+						<td>Jawad Safi</td>
+						<td>Jsafi@safi.com</td>
+						<td class="right">33</td>
+					</tr>
+					<tr>
+						<td>Ent Mohammed</td>
+						<td>theflyingent@safi.com</td>
+						<td class="right">5</td>
+					</tr>
+					<tr>
+						<td>Steve Jobless</td>
+						<td>jobless@safi.com</td>
+						<td class="right">3</td>
+					</tr>
+					<tr>
+						<td>Neil Armstrong</td>
+						<td>1stmaninSpace@safi.com</td>
+						<td class="right">10</td>
+					</tr>
+					<tr>
+						<td>Nabeel Khan</td>
+						<td>nasKhan@safi.com</td>
+						<td class="right">25</td>
+					</tr>
+					<tr>
+						<td>John Walker</td>
+						<td>johnwalter@safi.com</td>
+						<td class="right">4</td>
+					</tr>
+				</tbody>
+			</table>
+		
+	
+	
+			<h3>Employee Data in Complex Table</h3>
+	
+				<table>
+					<thead>
+						<tr>
+							<th>Category</th>
+							<th>Name</th>
+							<th>E-mail</th>
+							<th class="right">Years of Service</th>
+							<th>Estimated Salary per Month</th>
+						</tr>
+					</thead>
+			<tbody>
+				<tr>
+					<th rowspan="2">CEO</th>
+					<td>Ahmed Hamidi</td>
+					<td>ahamidi@safi.com</td>
+					<td class="right">20</td>
+					<td>$10,000</td>
+				</tr>
+				<tr>
+					<td>Jawad Safi</td>
+					<td>Jsafi@safi.com</td>
+					<td class="right">33</td>
+					<td>$12,000</td>
+				</tr>
+				<tr>
+					<th rowspan="3">Manager</th>
+					<td>Ent Mohammed</td>
+					<td>theflyingent@safi.com</td>
+					<td class="right">5</td>
+					<td>$5,000</td>
+				</tr>
+				<tr>
+					<td>Steve Jobless</td>
+					<td>jobless@safi.com</td>
+					<td class="right">3</td>
+					<td>$3,000</td>
+				</tr>
+				<tr>
+					<td>Neil Armstrong</td>
+					<td>1stmaninSpace@safi.com</td>
+					<td class="right">10</td>
+					<td>$7,000</td>
+				</tr>
+				<tr>
+					<th rowspan="2">Employee</th>
+					<td>Nabeel Khan</td>
+					<td>nasKhan@safi.com</td>
+					<td class="right">25</td>
+					<td>$12,000</td>
+				</tr>
+				<tr>
+					<td>John Walker</td>
+					<td>johnwalter@safi.com</td>
+					<td class="right">4</td>
+					<td>$3,000</td>
+				</tr>
+			</tbody>
+			<tfoot class="tfoot">
+				<tr>
+					<th class="right" colspan="3">Total Years of Service</th>
+					<th class="right">100</th>
+					<th class="right">Total Estimated Salary Expenditure = $52,000</th>
+				</tr>
+			</tfoot>
+		</table>
+		</main>
+	<script src="scripts/footerLinks.js"></script>
+	<footer>
+     
+    </footer>
+	</body>
+</html>
+
