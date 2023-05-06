@@ -80,3 +80,127 @@ tbody tr:nth-child(even) td
 	background-color: #E83151;
 	color: #DBD4D3;
 }
+
+
+/*Slide Show*/
+
+.mySlides,
+.mySlides1 {
+    display: none;
+}
+
+.prev {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    left: 0;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    user-select: none;
+}
+
+.next {
+    cursor: pointer;
+    right: 0;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    font-size: 18px;
+    color: white;
+    margin-top: -22px;
+    font-weight: bold;
+}
+
+
+.caption_slide {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.counter_slide {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+
+
+/* Calculator */
+
+
+input {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
+
+.container {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 75px 0;
+}
+  
+.calculator {
+	background: #387780;
+	padding: 20px;
+	border-radius: 5px;
+}
+  
+.display {
+	text-align: right;
+	height: 70px;
+	line-height: 70px;
+	font-size: 25px;
+	color: white;
+	background: #262626ff;
+	border-color: white;
+}
+ 
+.calculator-body{
+    color: #E83151;
+    
+}
+E83151
+.calculator tr:nth-child(even) td
+{
+	background-color: #387780;
+	color: #DBD4D3;
+}
+
+
+
+
+.buttons tr {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #E83151;
+    
+}
+  
+  
+.button {
+	line-height: 100px;
+	text-align: center;
+	font-size: 25px;
+	cursor: pointer;
+	background: none;
+	color: white;
+}

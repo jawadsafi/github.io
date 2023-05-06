@@ -1,0 +1,271 @@
+<html><head>
+	<title>Sport</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0">
+	<script src="hobby.js" defer=""></script>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			background-color: rgb(194, 178, 128);
+		}
+
+		header {
+			background-image: url(images/afganisthan-4645274_1920.jpg);
+			background-repeat: no-repeat;
+			color: whitesmoke;
+			padding: 20px;
+			background-size: 100% 600px;
+			
+
+		}
+		header h1 {
+			margin: 0;
+			justify-content: center;
+			display: flex;
+			padding: 15px;
+		}
+
+		h1 {
+			margin: 0;
+		}
+
+		nav ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: space-between;
+		}
+
+		nav ul li {
+			margin-right: 20px;
+		}
+
+		nav ul li:last-child {
+			margin-right: 0;
+		}
+
+		nav ul li a {
+			color: whitesmoke;
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 18px;
+			transition: color 0.3s;
+			font-weight: bolder;
+		}
+
+		nav ul li a:hover {
+			color: #ffcc00;
+		}
+
+		main {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px;
+
+		}
+		main h2 {
+			text-align: center;
+			justify-content: center;
+			align-items: center;
+			margin: 0%;
+		}
+		img {
+			justify-content: center;
+			text-align: center;
+			margin: 0 auto;
+			display: block;
+			padding: 20px;
+
+		}
+		iframe{
+			justify-content: center;
+			text-align: center;
+			margin: 0 auto;
+			display: block;
+			padding: 20px;
+
+		}
+
+		section {
+			margin-bottom: 20px;
+		}
+
+		/* h2 {
+			margin: 0 0 10px 0;
+			font-size: 24px;
+			font-weight: bold;
+		} */
+
+		article {
+			margin-bottom: 20px;
+		}
+
+		h3 {
+			margin: 0 0 10px 0;
+			font-size: 20px;
+			font-weight: bold;
+		}
+
+		p {
+			margin: 0 0 10px 0;
+			line-height: 1.5;
+			padding: 8px 20px 8px;
+		}
+
+		table {
+			border-collapse: collapse;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+
+		th, td {
+			border: 1px solid #ccc;
+			padding: 8px;
+			text-align: left;
+		}
+
+		tbody tr:nth-child(even) {
+			background-color: #f2f2f2;
+		}
+
+		tbody tr:hover {
+			background-color: #ddd;
+		}
+
+		a {
+			color: #333;
+			text-decoration: none;
+			font-weight: bold;
+			transition: color 0.3s;
+		}
+
+		a:hover {
+			color: #ffcc00;
+		}
+
+		footer {
+			/* background-color: #333; */
+			/* color: #fff; */
+			padding: 20px;
+			text-align: center;
+			margin: 0 auto;
+			display: block;
+			position: relative;
+			display: flex;
+		    text-align: center;
+			justify-content: center;
+				}
+
+		footer p {
+			margin: 0;
+		}
+
+		#toggle-button {
+			margin: 0;
+			justify-content: center;
+			display: none;
+		}
+
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: #f24236ff;
+  border-radius: 10px;
+}
+
+		@media(max-width: 800px) {
+			#toggle-button {
+			display: flex;
+		    }
+
+			.navbar li a {
+				margin: 0;
+			justify-content: center;
+			display: block;
+			font-size: smaller;
+			}
+			.img{
+				width: 25%;
+			}
+			.iframe{
+				width: 5%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Buzkashi</h1>
+		<nav>
+			<ul class="navbar">
+				<li><a href="#Home" onclick="pageHomeLoad()">Home</a></li>
+				<li><a href="#origin" onclick="pageOriginLoad()">Origin</a></li>
+				<li><a href="#rules" onclick="pageRuleoLoad()">Rules</a></li>
+				<li><a href="#competitions" onclick="pageCompLoad()">Competions</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="Home">
+			<h2>The Famous World of Buzkashi</h2>
+			<img src="images/afganisthan-4645274_1920.jpg" alt="" width="800">
+           <p>Buzkashi (also spelled bozkashi or kok-boru) is a traditional equestrian team sport played in Central Asia, particularly in Afghanistan, Tajikistan, Uzbekistan, Kyrgyzstan, and Kazakhstan. The game involves two teams of horse-mounted players competing to score points by capturing a headless goat or calf carcass and carrying it towards a goal.
+			The objective of the game is to move the carcass towards the opposing team's goal while riding a horse, and drop it within a designated circle to score a point. The carcass, which can weigh up to 50 kilograms, is initially placed at the center of the field. The players then try to grab the carcass and carry it away while fending off the opposing team's attempts to take it.</p>
+		<p>Bozkashi is a fast-paced and physically demanding sport that requires both skill and strength. Players must be skilled horsemen and able to handle the weight of the carcass while on horseback. The game can be quite dangerous, as players often fall from their horses or collide with each other while trying to gain control of the carcass.
+			Bozkashi has a long history and cultural significance in Central Asia, where it is often played at festivals and special occasions. It is considered a test of courage and strength, and is popular among both spectators and participants.</p>
+		</section>
+
+		<section id="origin">
+			<h2>The Origin of Buzkashi</h2>
+			<img src="images/shutterstock_6784663a-21.jpg" alt="" width="845">
+			<p>The origins of Buzkashi are not entirely clear, as the sport has a long and complex history that spans several centuries and different cultures in Central Asia. However, it is believed to have originated in the nomadic tribes of Central Asia, where it was practiced as a way to train young warriors for battle.
+
+				The game has been played in various forms and under different names throughout Central Asia and parts of the Middle East for centuries. In Afghanistan, where it is the national sport, Buzkashi dates back to the era of Genghis Khan and the Mongol Empire. It was also popular among the Turkic-speaking nomads of Central Asia, including the Kyrgyz, Kazakhs, and Uzbeks..</p>
+		        <img src="images/000_9QT77A.jpg" alt="" width="600">
+			</section>
+		<section id="rules">
+			<h2>The Rules of Buzkashi</h2>
+			<p>The game is played on a large, open field, with two goals placed at opposite ends of the field.
+
+				Each team consists of several horse-mounted players, who compete to carry a headless goat or calf carcass towards the opposing team's goal.
+				
+				The game begins with a "maulaw" or "mijgol" (a group of riders) competing for the carcass at the center of the field. The player who is able to grab the carcass and ride away with it is considered the winner of the "maulaw."
+				
+				The player who wins the "maulaw" carries the carcass towards the opposing team's goal, while the other players on his team try to protect him from the opposing team's players.
+				
+				The opposing team's players attempt to steal the carcass away from the player carrying it and carry it towards their own goal.
+				
+				A point is scored when a player carrying the carcass is able to drop it within a designated circle around the opposing team's goal.
+				
+				The game continues until a pre-determined number of points are scored, or a pre-determined amount of time has elapsed.
+				
+				There are few formal rules in Buzkashi, but players are expected to avoid dangerous collisions and abide by basic principles of fair play.</p>
+		</section>
+		<section id="competitions">
+			<h2>Competitions for Buzkashi</h2>
+			<img src="images/Afghan_Game_Buzkashi.jpg" alt="" width="739">
+			<p>Buzkashi is played at various levels, from informal community matches to organized tournaments and competitions. Some of the most popular competitions include:</p>
+			<p>National Buzkashi Competitions: Many countries in Central Asia, such as Afghanistan, Tajikistan, and Uzbekistan, hold national competitions to determine the best Buzkashi teams and players. These competitions typically feature multiple rounds of matches, with the winners advancing to the next round until a champion is crowned.
+
+				International Buzkashi Competitions: There are also several international Buzkashi competitions held each year, which bring together the best players from different countries. The World Buzkashi Championship, held every two years, is one of the most prestigious international Buzkashi tournaments.
+				
+				Local Matches and Festivals: Buzkashi is also a popular pastime at the local level, with many communities hosting matches and festivals throughout the year. These events may feature informal matches between neighboring villages, as well as traditional music, food, and other cultural activities.
+				
+				Military Buzkashi: In some countries, Buzkashi is also played as a training exercise for military personnel, as it helps to develop the physical and strategic skills needed for combat. Military Buzkashi competitions are typically more intense and physically demanding than civilian matches.</p>
+			</section>
+	</main>
+	<footer>
+		<a id="validation_link_html" href="https://validator.w3.org/check?uri=https://webpages.charlotte.edu/isafi/itis3135/hobby/"><img src="images/button-valid-html5.gif" width="88" height="31" alt="Validate webpage HTML."></a>
+	<a id="validation_link_css" href="https://jigsaw.w3.org/css-validator/validator?uri=https://webpages.charlotte.edu/isafi/itis3135/hobby/"><img src="images/valid-css.png" width="88" height="31" alt="Validate webpage CSS."></a>
+<script>
+	document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+	document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+</script>
+	</footer>
+	
+</body></html>

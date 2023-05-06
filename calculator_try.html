@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ITIS3135 | Jawad Safi Jazzy Jaguar | Calculator Try </title>
+        <meta charset="UTF-8">
+        <link href="style/default.css" rel="stylesheet" type="text/css">
+        <!--Fonts-->
+        <script src="scripts/calculator_try.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    </head>
+    <body">
+        <header></header>
+        <script src="scripts/siteLinks.js"></script>
+        <main>
+            <div class="container">
+                <table class="calculator">
+                    <tbody class="calculator-body"><tr>
+                        <td colspan="4"> <input class="display" type="text" id="result" disabled=""> </td>
+                    </tr>
+                    <tr class="buttons">
+                        <td colspan="3"> <input type="button" value="Clear All" onclick="clearScreen()" id="btn" class="button">
+                        </td>
+                        
+                        <td> <input type="button" value="/" onclick="display('/')" class="button"> </td>
+                    </tr>
+                    <tr class="buttons"> 
+                        <td> <input type="button" value="7" onclick="display('7')" class="button"> </td>
+                        <td> <input type="button" value="8" onclick="display('8')" class="button"> </td>
+                        <td> <input type="button" value="9" onclick="display('9')" class="button"> </td>
+                        <td> <input type="button" value="*" onclick="display('*')" class="button"> </td>
+                    </tr>
+                    <tr class="buttons">
+                        <td> <input type="button" value="4" onclick="display('4')" class="button"> </td>
+                        <td> <input type="button" value="5" onclick="display('5')" class="button"> </td>
+                        <td> <input type="button" value="6" onclick="display('6')" class="button"> </td>
+                        <td> <input type="button" value="-" onclick="display('-')" class="button"> </td>
+                    </tr>
+                    <tr class="buttons">
+                        <td> <input type="button" value="1" onclick="display('1')" class="button"> </td>
+                        <td> <input type="button" value="2" onclick="display('2')" class="button"> </td>
+                        <td> <input type="button" value="3" onclick="display('3')" class="button"> </td>
+                        <td> <input type="button" value="+" onclick="display('+')" class="button"> </td>
+                    </tr>
+                    <tr class="buttons">
+                        <td> <input type="button" value="0" onclick="display('0')" class="button"> </td>
+                        <td> <input type="button" value="." onclick="display('.')" class="button"> </td>
+                        <td colspan="2"> <input type="button" value="=" onclick="calculate()" id="equal" class="button">
+                        </td>
+                    </tr>
+                </tbody></table>
+            </div>
+        </main>
+        <script src="scripts/footerLinks.js"></script>
+        <footer>
+        </footer>
+    </body>
